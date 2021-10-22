@@ -32,7 +32,7 @@ def watch():
     l1.config(text=hour)
     l1.after(200, watch)
     l2.config(text=dayWeek + ", " + str(day) +
-              "/" + str(month)+"." + "/" + str(year))
+              "-" + str(month)+"." + " - " + str(year))
 
 
 l1 = Label(screen, text="", font=("digital-7 80"), bg=background, fg=color)

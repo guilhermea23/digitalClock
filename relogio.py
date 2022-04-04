@@ -1,4 +1,3 @@
-from tkinter import *
 import tkinter
 from datetime import datetime
 
